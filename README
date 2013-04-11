@@ -1,0 +1,7 @@
+This is a ticker macro for google docs.
+
+If you want to use live bitcoin->USD exchange rates in your google document, you can use this macro. Currently written for USD rates but can easily be modified for Euro or any other currency.
+
+It can fetch the rate from bitfloor, bitpay or mtgox. It will cache the rate to avoid hitting the servers repeatedly.
+
+Usage instructions can be found in ticker.js
