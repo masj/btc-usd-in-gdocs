@@ -8,7 +8,7 @@
 // 5. Go back to your document and fetch the rate using: =fetchTicker("bitfloor")
 // 6. You can replace "bitfloor" with "mtgox" or "bitpay" for the rate you want (you can also get all 3 rates in the same document)
 
-// Written by ashray@bkpk.me - based on the macro by znort987@yahoo.com
+// Written by Ash B - based on the macro by znort987@yahoo.com
 
 function donothammer()
 {
@@ -51,7 +51,7 @@ function fetchCached(url)
 }
 
 function fetchTicker(
-    tickerName,     // e.g. :  'bitfloor, mtgox, bitpay'
+    tickerName     // e.g. :  'bitfloor, mtgox, bitpay'
 )
 {
     var url = "https://api.bitfloor.com/ticker/1"
